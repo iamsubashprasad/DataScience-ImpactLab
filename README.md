@@ -49,6 +49,37 @@ for i in s
 
       for i in range(1,n+1)
        print("*" *i)
+
+      ## Function in Python
+      Why we need functions : To increase the reusability
+      syntax :
+      def test():
+        pass  -- nothing will return
+
+      def test1():
+         print("My name is sudhansu")
+     # Note : in the function you should not use print becuase print will return nonetype , so use return "my name is subash"
+       You can return multiple things from the functions
+
+   
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+         
      
     
 
