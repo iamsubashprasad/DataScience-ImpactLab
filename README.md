@@ -18,7 +18,7 @@ String Declaration: Creating a string variable (e.g., s = "Euron").
 - isalpha(): Checks if all characters in the string are alphabetic.
 - isalnum(): Checks if all characters in the string are alphanumeric (alphabetic or numeric).
 - split(): function to split the two number or two inputs into two different variables . e.g : x,y = int(input("Enter two number")).split() ---> x= 500 , y= 500
-- reverse():
+- reverse(): function to reverse the characters and the strings. e.g : Subash --> hsabus , Khushvik - kivhsuhk
 
 ## 1. String Creation:
 Strings can be created using single quotes (' '), double quotes (" "), or triple quotes (''' or """ ).
