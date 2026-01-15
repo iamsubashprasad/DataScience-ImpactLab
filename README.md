@@ -1,5 +1,5 @@
-<h1># DataScience-ImpactLab</h1>
-<h2></h2>DataScience-ImpactLab is a collection of real world data science projects focused on transforming raw data into actionable business insights.</h2>
+# DataScience-ImpactLab
+## DataScience-ImpactLab is a collection of real world data science projects focused on transforming raw data into actionable business insights.
 
 # String Inbuilt Functions :
 # Key concepts and functions covered:
