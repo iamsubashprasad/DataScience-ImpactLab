@@ -2,8 +2,8 @@
 ## DataScience-ImpactLab is a collection of real world data science projects focused on transforming raw data into actionable business insights.
 
 # String Inbuilt Functions :
-# Key concepts and functions covered:
-
+**Key concepts and functions covered:**
+*********************************************************************************************************************************
 String Declaration: Creating a string variable (e.g., s = "Euron").
 - upper(): Converts a string to uppercase. It doesn't modify the original string unless reassignment is done (e.g., s = s.upper()).
 - lower(): Converts a string to lowercase. Similar to upper(), it requires reassignment to permanently change the string.
@@ -20,39 +20,38 @@ String Declaration: Creating a string variable (e.g., s = "Euron").
 - split(): function to split the two number or two inputs into two different variables . e.g : x,y = int(input("Enter two number")).split() ---> x= 500 , y= 500
 - reverse():
 
-
 ## 1. String Creation:
 Strings can be created using single quotes (' '), double quotes (" "), or triple quotes (''' or """ ).
 Triple quotes are useful for multi-line strings or when single/double quotes are present within the string.
 If a string contains single quotes, enclose it in double quotes, and vice versa, to avoid syntax errors.
 
-# 2. Indexing:
+## 2. Indexing:
 Python strings are indexed, meaning each character has a position number.
 Forward Indexing: Starts from 0 for the first character and increases sequentially.
 Backward Indexing: Starts from -1 for the last character and decreases sequentially.
 Individual characters can be accessed using their index within square brackets (e.g., string[0] for the first character).
 
-# 3. Slicing:
+## 3. Slicing:
 Slicing extracts a portion (substring) of a string.
 The syntax is string[start:end:step].
 start: The index to begin the slice (inclusive). If omitted, defaults to the beginning of the string.
 end: The index to end the slice (exclusive). The character at this index is not included. If omitted, defaults to the end of the string.
 step: The increment between indices (default is 1). A negative step reverses the slice.
 
-# Important: The end index is exclusive. To include a character at a specific index, the end index must be one position beyond it.
-Step Size:
+## Important: The end index is exclusive. To include a character at a specific index, the end index must be one position beyond it.
+**Step Size:**
 Determines the jump or step between characters in the slice.
 A step of 2 will select every other character.
 A negative step reverses the string or a portion of it.
 
-# Reversing a String:
+## Reversing a String:
 string[::-1] reverses the entire string.
 This uses a negative step without specifying start or end indices, effectively reversing the string.
 
-# Conflicts in Direction:
+## Conflicts in Direction:
 If the start and end indices, combined with the step, create a conflict in direction (e.g., going from a higher index to a lower index with a positive step), the result will be an empty string.
 
-# 4. Key Takeaways:
+## 4. Key Takeaways:
 Understanding forward and backward indexing is crucial for accessing and manipulating string characters.
 Slicing provides a powerful way to extract substrings based on index ranges and step sizes.
 The step parameter in slicing enables advanced operations like reversing strings or selecting specific character patterns.
@@ -84,7 +83,7 @@ Interning can lead to unexpected behavior when comparing strings using is (ident
 
 
 # Control and Loop
-# For loop :
+## For loop :
 s= "Subash"
 for i in s
   print(i)
