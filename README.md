@@ -3,6 +3,12 @@
 
 # String Inbuilt Functions :
 **Key concepts and functions covered:**
+
+## How to push the code from Vscode to repo
+Open new Terminal in Vscode
+git add .
+git commit -m "Give your weired message"
+git push
 *********************************************************************************************************************************
 String Declaration: Creating a string variable (e.g., s = "Euron").
 - upper(): Converts a string to uppercase. It doesn't modify the original string unless reassignment is done (e.g., s = s.upper()).
